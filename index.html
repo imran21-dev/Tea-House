@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="Body">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
     <link rel="stylesheet" href="style/tailwind.css">
     <link rel="shortcut icon" href="images/sht-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
 </head>
-<body>
-    
+<body class="font-manrope px-56 dark:bg-gray-950">
+    <header>
+        <nav class="py-3 flex items-center justify-between">
+             <div class="flex items-center gap-3">
+                <div class="flex w-12 h-12 items-start justify-center"><img class="w-full -mt-1" src="images/sht-icon.png" alt=""></div>
+                <h1 class="text-3xl font-extrabold  h-12 flex items-center gap-2 dark:text-white">Tea <span class="text-orange-500">House</span> </h1>
+             </div>
+             <ul class="flex h-12 items-end">
+                <li><a href="" class="nav-btn">Home</a></li>
+                <li><a href="" class="nav-btn">About Us</a></li>
+                <li><a href="" class="nav-btn">Products</a></li>
+                <li><a href="" class="nav-btn">News</a></li>
+                <li><a href="" class="nav-btn">Contact Us</a></li>
+                <li id="Moon" class="flex"><h2 class="nav-mode-btn cursor-pointer"><i class="fa-solid fa-moon-cloud" id="MoonIcon"></i></h2></li>
+               
+             </ul>
+        </nav>
+        <section class="py-10 flex items-center justify-between">
+            <div class=" w-2/4 flex flex-col gap-7">
+                <h1 class="text-7xl font-extrabold leading-[80px] dark:text-white">It's good <br> tea time at The <br> Tea <span class="text-orange-500">House</span></h1>
+                <p class="font-medium text-lg dark:text-white">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <button class="text-white text-xl font-bold bg-gradient-to-r from-orange-400 to-red-500 py-4 px-6 rounded-xl flex items-center gap-2 w-max hover:px-7">Explore More <i class="fa-light fa-arrow-up-right text-2xl"></i></button>
+            </div>
+            <div class="w-2/4 flex items-center justify-center relative">
+                <img class="w-max" src="images/banner.png" alt="">
+              <div class="p-5 bg-white absolute flex rounded-lg items-center gap-4 shadow-lg bottom-0 mr-36 dark:bg-gray-950 dark:text-white dark:shadow-gray-700">
+                <i class="fa-solid fa-stars text-4xl -mt-2 text-yellow-400"></i>
+                <h1 class="text-3xl font-extrabold leading-5">5.00 <br> <span class="font-semibold text-sm">Trust Pilot Ratings</span></h1>
+              </div>
+            </div>
+        </section>
+    </header>
+    <script src="script.js"></script>
 </body>
 </html>

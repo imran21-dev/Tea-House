@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-btn{
+    @apply text-lg font-medium px-6 py-2 hover:bg-orange-500 hover:text-white flex dark:text-white rounded-lg
+}
+.nav-mode-btn{
+    @apply text-lg font-medium px-3 py-3 bg-orange-500  flex items-center justify-center rounded-full dark:text-white ml-2
+
+}
+*{
+    transition: .2s ease-in-out;
+}
