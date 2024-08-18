@@ -9,6 +9,9 @@
     @apply text-lg font-medium px-3 py-3 bg-orange-500  flex items-center justify-center rounded-full dark:text-white ml-2
 
 }
+.tea-cart{
+    @apply flex flex-col items-center bg-gradient-to-b from-[#f4f4f4] to-white p-9 rounded-2xl w-5/6 hover:from-orange-200 hover:to-white hover:-translate-y-1 dark:from-gray-800 dark:to-gray-950 dark:hover:from-orange-500
+}
 *{
     transition: .2s ease-in-out;
 }
